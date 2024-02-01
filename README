@@ -1,0 +1,15 @@
+Arbitrage Oppurtunity Finding Algorithm
+
+This algorithm takes data from the Binance API and finds oppurtunity for Triangular Arbitrage using the Bellman-Ford Algorithm
+
+NOTE: 
+- The API performance has been sub-par at best
+- If you get an error that says "Failed to initialize IO", please try to run again. I have been having issues recieving a response from the endpoint used in that function and waiting 2 seconds and trying again has worked every time I get this error.
+- If you are still experiencing issues, please reference the mp4 provided as proof of it working.
+- Due to the nature of market prices, I can't guarantee that an arbitrage oppurtunity will be found, but the video provided did find one.
+
+market.json is a json representation of the market_data map as generated in the code
+
+Run this program with `./arbitrage`
+
+An optional flag of '--silent' will mute all status updates on 

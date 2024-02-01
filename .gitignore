@@ -1,0 +1,9 @@
+obj/
+*.o
+
+build/
+
+.vscode/
+
+arbitrage
+market.json
